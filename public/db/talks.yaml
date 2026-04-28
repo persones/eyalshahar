@@ -1,4 +1,8 @@
 talks:
+  - date: "<ay '26"
+    event: MuseumNext - Museum AI Summit
+    title: Meaningfully integrating AI into exhibits: Tips, tricks, and trade-offs
+    role: Speaker
   - date: "Oct. '25"
     event: MCN 2025 (Museum Computer Network)
     title: "From Exhibits to Platforms: Software Infrastructure at the Exploratorium"
