@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "main font";
-	src: url("../fonts/Economica/Economica-Regular.ttf");
-	/*src: url("../fonts/WhiteRabbit.woff");*/
+	/*src: url("../fonts/Instruction.ttf"); */
+	src: url("../fonts/WhiteRabbit.woff");
 }
 
 body {

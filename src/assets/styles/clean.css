@@ -2,6 +2,11 @@
   display: none;
 }
 
+@font-face {
+	font-family: "main font";
+	src: url("../fonts/JuliaMono-ttf/JuliaMono-Light.ttf");
+}
+
 #app {
   height: 100%;
 }
@@ -35,7 +40,7 @@
 
 body {
   /*font-family: 'Cutive Mono', monospace;*/
-  font-family: 'Fira Code', monospace;
+  font-family: 'main font', monospace;
   padding: 0;
   margin: 0em;
   box-sizing: border-box;

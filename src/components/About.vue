@@ -5,7 +5,7 @@
         Hi. I'm Eyal. 
       </p>
       <p>Here is my <a v-on:click="$emit('show', 'resume')">resume</a>.</p>
-      <p>I design and build new-media exhibits at the <a href="https://www.exploratorium.edu/people/eyal-shahar" target="_blank">Exploratorium</a> in San Francisco.</p>
+      <p>I design and build digitally-driven exhibits at the <a href="https://www.exploratorium.edu/people/eyal-shahar" target="_blank">Exploratorium</a> in San Francisco.</p>
       <p>I teach aspiring museum professionals at <a href="https://www.usfca.edu/faculty/eyal-shahar" target="_blank">the University of San Francisco</a> about museums and technology.</p>
       <p>Before doing what I do now, I played music professionally, taught robotics and music production, and worked at a few startups, doing some DSP and software engineering.</p>
       

@@ -1,4 +1,93 @@
 projects:
+  - title: Planktoscope
+    end_date: 07/2026
+    affiliation: Exploratorium
+    context: Center for Cellular Construction
+    role: Exhibit Developer
+    collaborators:
+    - Amanda Meriwether
+    - Sylvia de la Piedra
+    - Jonathan Erwin 
+    description: | 
+      An AI-enabled exhibit that allows visitors to explore plankton through a microscope
+    images:
+      - file: images/planktoscope.jpg
+        caption: Planktoscope
+
+  - title: How Likely is Alien Life?
+    end_date: 06/2026
+    affiliation: Exploratorium
+    context: Living in Space
+    role: Exhibit Developer
+    collaborators:
+    - Pearl Tesler
+    - Lutzka Zivny 
+    description: |
+      An interactive exhibit that explores the factors that
+      contribute to the likelihood of alien life existing in
+      the universe, using the Drake equation.
+    images:
+      - file: images/drake.jpg
+        caption: How Likely is Alien Life?
+
+  - title: Delayed Communication
+    end_date: 06/2026
+    affiliation: Exploratorium
+    context: Living in Space
+    role: Exhibit Developer
+    description: |
+      Two phones that are connected to each other, but with a delay of 5 seconds,
+      which demonstrates the challenges of communication in space.
+    images:
+      - file: images/delayed.jpg
+        caption: Delayed Communication
+
+  - title: Promptet Observations
+    end_date: 05/2026
+    affiliation: Exploratorium
+    context: The Center for Cellular Construction
+    role: Exhibit Developer
+    collaborators:
+    - Joyce Ma
+    - Amanda Meriwether
+    - Sylvia de la Piedra
+    - Chris Olson
+    description: An AI-directed observation of microsopic imagary
+    images:
+      - file: images/posumm.jpg
+        caption: Prompted Observations
+  
+  - title: How Much Grandma?
+    end_date: 10/2025
+    affiliation: Exploratorium
+    context: The Center for Cellular Construction
+    role: Exhibit Developer
+    collaborators:
+    - Joyce Ma
+    - Sylvia de la Piedra
+    description: |
+      A projection-mapped interactive scroll that explores the complexity of familial 
+      genetic relationships across generations.
+    images:
+      - file: images/hmg.jpg
+        caption: How Much Grandma?
+
+  - title: What Will They Eat?
+    end_date: 12/2024
+    affiliation: Exploratorium
+    context: The Center for Cellular Construction
+    role: Exhibit Developer
+    collaborators:
+    - Kristin Yu
+    - Joyce Ma
+    - Sylvia de la Piedra
+    - Amanda Meriwether
+    - Jord Liu
+    description: A kiosk in which the visitor explores live rotifers under a microscope, with the assistance of AI image recognition.
+    images:
+      - file: images/frame.jpg
+        caption: What Will They Eat?
+
   - title: Fabulouos Singing Stomata
     end_date: 03/2023
     affiliation: Exploratorium
