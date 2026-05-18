@@ -31,6 +31,26 @@ projects:
         link: http://gizmodo.com/5912789/sleep-no-more-what-its-like-inside-the-worlds-most-interactive-play
       - text: The Guardian review
         link: http://www.guardian.co.uk/culture-professionals-network/culture-professionals-blog/2012/may/25/punchdrunk-digital-innovation-sleep-no-more?newsfeed=true
+  - title: SoundStrand
+    end_date: 06/2012
+    affiliation: MIT Media Lab
+    context: Master's thesis
+    description: "A music composition toy, which comprises a set of building blocks,
+      each containing a musical motif. The blocks can be connected to each other
+      to create a musical theme. They can also be manipulated with three degrees
+      of freedom: elongation changes the rhythmic distribution of the notes;
+      bending changes the direction of the melody; and twisting changes the
+      harmonic context"
+    images:
+      - youtube: bE9ZXHRWaWc
+        width: 448
+        height: 252
+    links:
+      - text: Master's thesis
+        link: http://alumni.media.mit.edu/~persones/papers/ms_thesis_eyal_shahar.pdf
+      - text: NIME `12 paper
+        link: http://alumni.media.mit.edu/~persones/papers/125_Final_Manuscript.pdf
+
   - title: Cicadence
     end_date: 06/2011
     affiliation: Figment, Boston
@@ -60,22 +80,4 @@ projects:
     links:
       - text: Chroma District in the Arts at MIT website
         link: https://arts.mit.edu/events/chroma-district/
-  - title: SoundStrand
-    end_date: 06/2012
-    affiliation: MIT Media Lab
-    context: Master's thesis
-    description: "A music composition toy, which comprises a set of building blocks,
-      each containing a musical motif. The blocks can be connected to each other
-      to create a musical theme. They can also be manipulated with three degrees
-      of freedom: elongation changes the rhythmic distribution of the notes;
-      bending changes the direction of the melody; and twisting changes the
-      harmonic context"
-    images:
-      - youtube: bE9ZXHRWaWc
-        width: 448
-        height: 252
-    links:
-      - text: Master's thesis
-        link: http://alumni.media.mit.edu/~persones/papers/ms_thesis_eyal_shahar.pdf
-      - text: NIME `12 paper
-        link: http://alumni.media.mit.edu/~persones/papers/125_Final_Manuscript.pdf
+  

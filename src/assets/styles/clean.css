@@ -36,7 +36,7 @@
   gap: 2em;
 }
 
-.project {
+.project-container .project {
   border-left: 1px solid black;  
   padding-left: 1em;
 }
@@ -63,7 +63,7 @@
     margin-bottom: 0rem;
   }
 
-  .project {
+  .project-container .project {
     border-left: none;  
     padding-left: 0em;
   }
