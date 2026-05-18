@@ -10,12 +10,11 @@
         </div>
         <div class="project-content">
           <div class="project-content-text">
+            <div id="project-description" class="project-field" v-html="description"></div>
             <div class="project-field" v-if="role" id="role">
               <strong>Role:</strong>
               {{ role }}
             </div>
-            <div id="project-description" class="project-field" v-html="description"></div>
-            
             <div class="project-field" v-if="collaborators">
               <strong>Collaborators: </strong>
               <span v-for="c in collaborators" :key="c" class="collaborator">{{ c }}</span>
