@@ -56,9 +56,6 @@ export default {
 </script> 
 
 <style>
-  .project {
-    margin: 0.5em 0;
-  }
   .project-header {
     display: flex;
     flex-direction: row;

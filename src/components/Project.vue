@@ -1,35 +1,42 @@
 <template>
-  <transition name="component-fade" mode="out-in">
-    <div class="project border-box" :key="title">
-      <h1 v-html="title"></h1>
-      <div class="project-field project-subtitle">
-        <span id="project-affiliation">{{ affiliation }}</span>
-        <span v-if="context" id="project-context"> / {{ context }}</span>
-        <span v-if="dates" id="project-dates"> / {{ dates }}</span>
+  <div class="project-container">
+    <transition name="component-fade" mode="out-in">
+      <div class="project border-box" :key="title">
+        <h1 v-html="title"></h1>
+        <div class="project-field project-subtitle">
+          <span id="project-affiliation">{{ affiliation }}</span>
+          <span v-if="context" id="project-context"> / {{ context }}</span>
+          <span v-if="dates" id="project-dates"> / {{ dates }}</span>
+        </div>
+        <div class="project-content">
+          <div class="project-content-text">
+            <div class="project-field" v-if="role" id="role">
+              <strong>Role:</strong>
+              {{ role }}
+            </div>
+            <div id="project-description" class="project-field" v-html="description"></div>
+            
+            <div class="project-field" v-if="collaborators">
+              <strong>Collaborators: </strong>
+              <span v-for="c in collaborators" :key="c" class="collaborator">{{ c }}</span>
+            </div>
+            <div v-if="links" id="project-links" class="project-field">
+              <strong>Links:</strong>
+              <table>
+                <tr v-for="link in links" :key="link.link">
+                  <td>&gt;</td>
+                  <td>
+                    <a :href="link.link" target="_blank">{{ link.text }}</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <Gallery v-bind:images="calcImages"></Gallery>
+        </div>
       </div>
-      <div class="project-field" v-if="role" id="role">
-        <strong>Role:</strong>
-        {{ role }}
-      </div>
-      <div id="project-description" class="project-field" v-html="description"></div>
-      <Gallery v-bind:images="calcImages"></Gallery>
-      <div class="project-field" v-if="collaborators">
-        <strong>Collaborators: </strong>
-        <span v-for="c in collaborators" :key="c" class="collaborator">{{ c }}</span>
-      </div>
-      <div v-if="links" id="project-links" class="project-field">
-        <strong>Links:</strong>
-        <table>
-          <tr v-for="link in links" :key="link.link">
-            <td>&gt;</td>
-            <td>
-              <a :href="link.link" target="_blank">{{ link.text }}</a>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </transition>
+    </transition>
+  </div>
 </template>
 
 <style>

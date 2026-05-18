@@ -17,7 +17,6 @@
 
   .image-strip {  
     overflow: hidden;
-    width:50%;
     display: flex;
     flex-direction: row;
   }
